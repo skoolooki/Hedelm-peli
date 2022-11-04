@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(231, 224, 224);
+}
+
+.panosgrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.container1 {
+    height: 500px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    text-align: center;
+    border-radius: 10px;
+    border-style: solid;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 5px 10px rgb(207, 205, 205);
+
+}
+
+
+.fruits{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.fruit-item{
+    border-style: solid;
+    background-color: white;
+    margin: 5px;
+}
+
+.lukitse{
+    position: relative;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.lukitse-item img{
+    cursor: pointer;
+}
+.lukitse-item{
+    position: relative;
+}
+
+.vihreä {
+    position: absolute;
+}
+
+.pelaa{
+    background-color: azure;
+    margin-top: 40px;
+    font-size: 80px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.pelaa:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: rgb(177, 219, 219);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 5px;
+    cursor: pointer;
+    background-color: azure;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: rgb(177, 219, 219);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.container2 {
+    border-radius: 10px;
+    border-style: solid;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 5px 10px rgb(207, 205, 205);
+}
+
+.menu-item{
+    font-size: 40px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-style: solid;
+    background-color: white;
+    margin: 5px;
+}
+
+.peli{
+    font-size: 40px;
+    background-color: gainsboro;
+    border-style: solid;
+    margin: 10px;
+    box-shadow: 5px 5px rgb(207, 205, 205);
+}
+
+.raha {
+    font-size: 40px;
+    background-color: gainsboro;
+    border-style: solid;
+    margin: 10px;
+    box-shadow: 5px 5px rgb(207, 205, 205);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}

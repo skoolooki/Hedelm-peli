@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1>Hedelmäpeli</h1>
+    </center>
+
+
+    <div class="grid">
+        <div class="container1">
+            <div class="raha">
+                <center>
+                    <p style="background-color: azure; width: 75%;">Rahaa: <span class="rahaa" id="rahaa">50</span></p> 
+                </center>
+                <p>Panos: <span id="panos">1</span></p>
+                <div class="panosgrid">
+                    <div class="card" onclick="euro1()">
+                        <p>1</p>
+                        <div class="container">
+                            <p>Euroa</p> 
+                        </div>
+                    </div>
+                    <div class="card" onclick="euro2()">
+                        <p>2</p>
+                        <div class="container">
+                            <p>Euroa</p> 
+                        </div>
+                    </div>
+                        <div class="card" onclick="euro3()">
+                            <p>3</p>
+                        <div class="container">
+                            <p>Euroa</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="peli">
+                <div class="boxes">
+                    <div class="fruits">
+                        <div class="fruit-item">
+                            <img src="omena.png" id="kuva1" width="132" height="133">
+                        </div>
+                        <div class="fruit-item">
+                            <img src="kirsikka.png" id="kuva2" width="132" height="133">
+                        </div>
+                        <div class="fruit-item">
+                            <img src="päärynä.png" id="kuva3" width="132" height="133">
+                        </div>
+                        <div class="fruit-item">
+                            <img src="vesimeloni.png" id="kuva4" width="132" height="133">
+                        </div>
+                    </div>
+                    <div class="lukitse">
+                        <div class="lukitse-item">
+                            <img src="lukitse.png" onclick="lukitse1(document.getElementById('lukitse1'))" id="lukitse1" alt="">
+                        </div>
+                        <div class="lukitse-item">
+                            <img src="lukitse.png" onclick="lukitse2(document.getElementById('lukitse2'))" id="lukitse2" alt="">
+                        </div>
+                        <div class="lukitse-item">
+                            <img src="lukitse.png" onclick="lukitse3(document.getElementById('lukitse3'))" id="lukitse3" alt="">
+                        </div>
+                        <div class="lukitse-item">
+                            <img src="lukitse.png" onclick="lukitse4(document.getElementById('lukitse4'))" id="lukitse4" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button class="pelaa" id="pelaa" onclick="pelaa()" type="button">Pelaa</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="container2">
+            <div class="menu-item">
+                <img src="omena.png">
+                <p>4x= <span id="omena">2€</span></p>
+            </div>
+            <div class="menu-item">
+                <img src="kirsikka.png">
+                <p>4x= <span id="kirsikka">4€</span></p>
+            </div>
+            <div class="menu-item">
+                <img src="päärynä.png">
+                <p>4x= <span id="päärynä">6€</span></p>
+            </div>
+            <div class="menu-item">
+                <img src="vesimeloni.png">
+                <p>4x= <span id="vesimeloni">8€</span></p>
+            </div>
+            <div class="menu-item">
+                <img src="seven.png" width="132" height="133">
+                <p>4x= <span id="seven">10€</span></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="koodi.js"></script>
+</body>
+</html>
